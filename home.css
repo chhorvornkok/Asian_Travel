@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #12212E;
+    color: #ECE7DC;
+}
+
+.nav {
+    background-color: #ECE7DC;
+    padding: 36px;
+    float: 0;
+    z-index: 10000;
+
+}
+
+.container-fluid {
+    position: fixed;
+    align-items: center;
+    margin-top: 95px;
+}
+
+.carousel-inner {
+    margin-top: 95px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.text_name {
+    font-size: large;
+
+}
+
+.navbar-brand {
+    color: #EA9940;
+}
+
+.logo {
+    margin: 0, 12px;
+}
+
+.home-text {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.d-block {
+    height: 400px;
+}
+
+
+
+.home-box {
+    width: 100%;
+    display: flex;
+    padding:50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s-home-box {
+    border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
+    background-color: #12212E;
+    border: 2px solid #ECE7DC;
+    width: 300px;
+    height: 300px;
+    padding:30px;
+}
+.home-box-img{
+    width: 240px;
+    height: 170px;
+    border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
+    background-color: #ffffff;
+}
+
+
+.under-home-text {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #12212E;
+    color: #ECE7DC;
+}
+
+.pop-city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 24px, 36px;
+}
+
+.cities {
+    color: #12212E;
+    background-color: #ECE7DC;
+    width: 420px;
+    height: 100px;
+    margin: 16px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.box-img {
+    height: 100px;
+    width: 180px;
+    border-radius: 20px 0 0 20px;
+}
+
+.text-box {
+    margin: 10px;
+}
+
+.small-text {
+    margin: 0 24px;
+}
+
+.schedule-text {
+    margin: 60px 0;
+}
+
+/* .time {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.time-box {
+    display: flex;
+    border-radius: 16px;
+    background-color:white;
+    color: #12212E;
+    width: 30%;
+    height: 300px;
+    margin-top: 10px;
+} */
+
+.time {
+    width: 100%;
+    padding: 10px 100px;
+    margin: 0 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    /* display: flex; */
+
+}
+.text-time{
+    text-align: center;
+    margin-top: 140px;
+}
+
+.time-box {
+    width: 100%;
+    display: flex;
+    padding: 24px 0;
+    margin-top: 100px 800px 100px 0;
+}
+
+.time-description {
+    width: 400px;
+    height: 170px;
+    background-color: #ECE7DC;
+    margin-top: 10px;
+    border-radius: 10% 0;
+    padding: 20px;
+    color: #12212E;
+}
+
+.time-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #ECE7DC;
+    margin: 0 100px;
+    background-color: #ffffff;
+}
+li{
+    margin-top: 5px;
+}
+
+.location {
+    margin-top: 100px;
+    width: 200vh;
+    height: 600px;
+    position: relative;
+}
+
+.location-card {
+    width: 350px;
+    height: 500px;
+    background-color: #ffffff;
+    color: #12212E;
+    z-index: 1000;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.location-img {
+    width: 310px;
+    height: 200px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.location-text {
+    margin-top: 20px;
+}
+
+.btns {
+    background-color: #EA9940;
+    color: #ECE7DC;
+    padding: 5px 20px;
+    border-radius: 4px;
+    float: right;
+    margin-top: 70px;
+    border: 2px solid #EA9940;
+
+}
+.fees{
+    width: 100%;
+    margin-top: 120px;
+    /* display: flex; */
+    justify-content: center; /* horizontal */
+    align-items: center;
+}
+
+.fee-card{
+    margin: 20px auto 20px;
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #12212E;
+    padding: 40px;
+
+}
+
+.fee-text{
+    color: #12212E;
+    text-align: center;
+}
+.fee-head{
+    text-align: center;
+}
+.option{
+    display: flex;
+}
+.form{
+    margin-top: 20px;
+}
+.fee-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: #EA9940;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+
